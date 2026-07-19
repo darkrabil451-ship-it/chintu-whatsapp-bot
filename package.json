@@ -1,10 +1,10 @@
 {
-  "name": "whatsapp-bot",
+  "name": "chintu-bot",
   "version": "1.0.0",
-  "description": "WhatsApp Bot with 200+ commands, emoji reactions, deployed on Render",
-  "main": "chintu_bot.js",
+  "description": "WhatsApp Bot with 200+ commands, emoji reactions",
+  "main": "src/chintu_bot.js",
   "scripts": {
-    "start": "node chintu_bot.js"
+    "start": "node src/chintu_bot.js"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.5.0",
@@ -14,8 +14,5 @@
   },
   "engines": {
     "node": ">=18.0.0"
-  },
-  "keywords": ["whatsapp", "bot", "baileys", "render"],
-  "author": "ENI for LO",
-  "license": "MIT"
+  }
 }
