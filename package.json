@@ -2,9 +2,9 @@
   "name": "whatsapp-bot",
   "version": "1.0.0",
   "description": "WhatsApp Bot with 200+ commands, emoji reactions, deployed on Render",
-  "main": "index.js",
+  "main": "chintu_bot.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node chintu_bot.js"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.5.0",
